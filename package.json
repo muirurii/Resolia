@@ -1,0 +1,11 @@
+{
+  "name": "resolia-conseil-website",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Original Resolia Conseil static site with contact and animation refinements",
+  "scripts": {
+    "lint": "node --check script.js && python3 tests/check_site.py",
+    "test": "node --check script.js && python3 tests/check_site.py && node tests/test_interactions.cjs",
+    "build": "python3 scripts/build.py"
+  }
+}
